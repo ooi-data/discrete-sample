@@ -1,4 +1,4 @@
-name: ds-env
+name: dsenv
 channels:
 - conda-forge
 dependencies:
@@ -8,6 +8,7 @@ dependencies:
 - zarr
 - intake
 - intake-xarray
+- pandas
 - hvplot
 - panel
 - datashader
