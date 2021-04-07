@@ -1,0 +1,16 @@
+name: ds-env
+channels:
+- conda-forge
+dependencies:
+- pangeo-notebook==2021.02.07
+- jupyter-panel-proxy
+- xarray
+- zarr
+- intake
+- intake-xarray
+- hvplot
+- panel
+- datashader
+- fsspec
+- s3fs
+- cmocean
